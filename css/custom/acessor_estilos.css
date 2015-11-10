@@ -1,0 +1,120 @@
+
+.btn-primary{
+  /*  border: 0px solid; */
+}
+
+.red{
+    color: red;
+
+}
+
+.btn{
+    outline: 0px !important;
+}
+
+.borda-visivel{
+    border: 1px solid black;
+}
+.lista-botoes{
+    display: block;
+    width: 100%;
+}
+.lista-botoes > button{
+    width: 100%;
+}
+.imagem-cabecalho{
+width: 200px;
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+
+}
+.cinzaTopo{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#919191+0,eeeeee+100 */
+    background: #919191; /* Old browsers */
+    background: -moz-linear-gradient(top,  #919191 0%, #eeeeee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#919191), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #919191 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #919191 0%,#eeeeee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #919191 0%,#eeeeee 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #919191 0%,#eeeeee 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#919191', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+
+}
+
+body{
+    background-color: #eee ;
+    font-family: "Agency FB";
+
+}
+.bordas-zeradas{
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px ;
+    border-top-left-radius: 0px;
+    border-top-right-radius:0px ;
+}
+
+.topico-primeiro{
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px ;
+    border-top-left-radius: 0px;
+    border-top-right-radius:10px ;
+}
+
+.ultimo{
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px ;
+
+    border-top-right-radius:0px ;
+    border-bottom-left-radius: 10px !important;
+}
+
+.branco{
+    color: white;
+
+
+}
+
+.sub-topico {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px ;
+    border-top-left-radius: 0px;
+    border-top-right-radius:0px ;
+}
+.fundocinza{
+
+}
+
+
+.azul-wizard, .azul-wizard:hover, .azul-wizard:focus{
+    background-color: #090040;
+    font-size: 15pt;
+
+}
+
+.light-blue{
+    color: #00F2FF;;
+
+}
+.topico-aberto{
+    background-color: #06002D !important;
+    color: #00F2FF !important;
+}
+.topico-aberto > li{
+    color: red;
+}
+.preto{
+    color: black;
+}
+
+.sub-topico {
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+
+.sub-topico:hover{
+    background-color: #D3D4D4 !important;
+    color:#06002D;
+}
